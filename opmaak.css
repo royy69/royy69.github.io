@@ -18,6 +18,10 @@ body {
     color: white;
   }
 
+ul{
+width:200px
+}
+
   #alfabet {
     text-align: left;
   }
