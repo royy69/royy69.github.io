@@ -1,4 +1,4 @@
-body {
+body { /* De achtergrondkleur en de kleur van mijn tekst */
     background-color: rgb(0, 89, 255);
     color: white;
   }
@@ -14,7 +14,7 @@ body {
     width: 100%;
   }
   
-  li {
+  li { /* Hierdoor staan mijn links aan de linker kant */
     float: left;
   }
   
@@ -34,7 +34,7 @@ body {
     background-color: #04AA6D;
   }
 
-  #alfabet {
+  #alfabet { /* Hierdoor staan de plaatjes op de pagina binair stelsel links */
     text-align: left;
   }
 
