@@ -3,7 +3,7 @@ body {
     color: white;
   }
 
-  ul {
+  ul { /* Dit zorgt ervoor dat mijn menu boven in een balkje staat */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     float: left;
   }
   
-  li a {
+  li a { /* Zo ziet mijn menu eruit als je er niet overheen gaat */
     display: block;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ body {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li a:hover:not(.active) { /* Zo ziet het eruit als je eroverheen gaat */
     background-color: #111;
   }
   
@@ -38,11 +38,15 @@ body {
     text-align: left;
   }
 
-  h1 {
+  h1 { /* De kleur en plek van mijn h1 */
     color: white;
     text-align: center;
   }
 
-  #mail {
+  #mail { /* De kleur van de orginele link was blauw dus dat kon je niet zien */
 color:red
+  }
+
+  #spel { /* Het was ontzichtbaar omdat hij blauw was */
+    color:grey
   }
