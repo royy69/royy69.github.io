@@ -30,8 +30,8 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     background-color: #111;
   }
   
-  .active {
-    background-color: #04AA6D;
+  a:active { /* Dit zorgt ervoor dat de active pagina en daarvan de link de achtergrond kleur groen krijgt */
+    background-color: green;
   }
 
   #alfabet { /* Hierdoor staan de plaatjes op de pagina binair stelsel links */
