@@ -30,7 +30,7 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     background-color: #111;
   }
   
-  a:active { /* Dit zorgt ervoor dat de active pagina en daarvan de link de achtergrond kleur groen krijgt */
+  li a:active { /* Dit zorgt ervoor dat de active pagina en daarvan de link de achtergrond kleur groen krijgt */
     background-color: green;
   }
 
