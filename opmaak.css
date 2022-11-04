@@ -29,10 +29,6 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
   li a:hover:not(.active) { /* Zo ziet het eruit als je eroverheen gaat */
     background-color: #111;
   }
-  
-  li a:active { /* Dit zorgt ervoor dat de active pagina en daarvan de link de achtergrond kleur groen krijgt */
-    background-color: green;
-  }
 
   #alfabet { /* Hierdoor staan de plaatjes op de pagina binair stelsel links */
     text-align: left;
