@@ -19,6 +19,7 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
+/* Basisstijlen voor het dropdown-menu */
   .dropdown { 
     float: left;
     overflow: hidden;
@@ -40,7 +41,8 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     background-color: lightblue;
     color: black;
   }
-  
+
+  /* Stijlen voor het zichtbare deel van de dropdown */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -59,59 +61,17 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     display: block;
     text-align: left;
   }
-  
+
+  /* Hover-effect voor de dropdown-opties */
   .dropdown-content a:hover {
     background-color: lightblue;
     color: black;
   }
-  
+
+  /* Zorg ervoor dat de dropdown zichtbaar wordt wanneer je eroverheen beweegt */
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
-
-  /* Basisstijlen voor het dropdown-menu */
-/*.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropbtn {
-  background-color: #000000;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-/* Stijlen voor het zichtbare deel van de dropdown */
-/*.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #000000;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #ffffff;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Hover-effect voor de dropdown-opties */
-/*.dropdown-content a:hover {
-  background-color: #3498db;
-  color: #fff;
-}
-
-/* Zorg ervoor dat de dropdown zichtbaar wordt wanneer je eroverheen beweegt */
-/*.dropdown:hover .dropdown-content {
-  display: block; 
-}
-*/
 
   #alfabet { /* Hierdoor staan de plaatjes op de pagina binair stelsel links */
     text-align: left;
