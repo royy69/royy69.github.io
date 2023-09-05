@@ -3,6 +3,22 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     color: white;
   }
 
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 22px;
+    color: white;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    border-right: 3px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
   /* Basisstijlen voor het dropdown-menu */
 .dropdown {
   position: relative;
