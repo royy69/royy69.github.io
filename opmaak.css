@@ -91,7 +91,7 @@ color:red
   }
 
   /* Stijl voor meerregelig tekstvak */
-.textarea {
+textarea {
   width: 300px;
   height: 150px;
   padding: 10px;
