@@ -89,3 +89,12 @@ color:red
   #spel { /* Het was ontzichtbaar omdat hij blauw was */
     color:white
   }
+
+  /* Stijl voor meerregelig tekstvak */
+.textarea {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
