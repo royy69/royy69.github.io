@@ -16,7 +16,6 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     padding: 14px 16px; 
     text-decoration: none; 
     border-right: 3px solid black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
 /* Basisstijlen voor het dropdown-menu */
@@ -33,7 +32,6 @@ body { /* De achtergrondkleur en de kleur van mijn tekst */
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
   }
 
