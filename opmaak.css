@@ -105,3 +105,8 @@ p {
   color: white;
   float: middle;
 }
+
+.rechts {
+  width: 500px;
+  float: right;
+}
