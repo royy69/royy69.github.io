@@ -100,8 +100,9 @@ textarea {
 }
 
 p {
+  width: 700 px;
   color: white;
-  text-align: center;
+  
 }
 
 .rechts {
