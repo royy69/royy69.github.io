@@ -103,7 +103,7 @@ p {
   width: 500px;
   border: 1px;
   color: white;
-  float: middle;
+  position: middle;
 }
 
 .rechts {
